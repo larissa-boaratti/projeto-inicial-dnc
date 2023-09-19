@@ -1,0 +1,224 @@
+* { /* o asterisco manda nas subclassificacoes para cor*/
+    font-family: 'Inter', sans-serif;
+    margin: 0%;
+}
+
+.margem {
+    margin: 0 172px 0 172px;
+}
+
+#parte1 {
+  color: white;
+  background-image: url(images/background_image_top_menu.svg);  
+}
+
+#logo {
+    width: 125px;
+    height: 62px;
+    padding-top: 52px;
+    padding-left: 56px;
+    
+    
+
+}
+
+#titulo1 {
+
+font-family: Inter;
+font-size: 40px;
+font-weight: 400;
+line-height: 51px;
+letter-spacing: 0em;
+text-align: left;
+padding-left: 172px;
+margin-bottom: 32px;
+
+}
+
+#subtitulo1 {
+
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+padding-left: 172px;
+padding-bottom: 151px;
+
+}
+
+.divEspacamento {
+    height: 65px;
+    background-color: #eaece5;
+}
+
+.icone {
+    padding-right: 16px;
+}
+
+.caixa { /*as divs que estao dentro da caixa recebem esses comandos*/
+    display: flex;
+    align-items: center;
+}
+
+#parte2 {
+    background-color: #eaece5;
+}
+
+#parte3 {
+    margin: 80px 172px 80px 172px;
+}
+
+
+.flex{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.flex-d-r{
+    flex-direction: row;
+}
+
+.flex-jc-c{
+    justify-content: center;
+}
+
+.flex-jc-sb{
+    justify-content: space-between;
+}
+
+.flex-jc-end{
+    justify-content:flex-end;
+}
+
+.flex-ai-c{
+    align-items: center;
+}
+
+.gap{
+    gap: 10px;
+}
+
+.viewport{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 65px 0;
+}
+
+.viewport_carrocel{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 65px 0;
+}
+
+
+#texto1 {
+color: var(--azul, #247BA0);
+color: var(--azul, #247BA0);
+font-size: 32px;
+font-weight: 700;
+line-height: 48px;
+}
+
+#titulocarrocel {
+margin: 0 0 64px 0;
+color: #EAECE5;
+text-align: center;
+font-size: 32px;
+font-weight: 700;
+line-height: 48px;
+}
+
+#carrocel {
+    background-color: #247ba0;
+}
+
+#paicards{
+    width: 100%;
+    margin:auto;
+    
+}
+
+#Samantha {
+    display: flex;
+    width: 45%;
+}
+
+#Leonardo{
+    width: 45%;
+    display: flex;
+
+}
+
+#Bruna{
+    width: 45%;
+    display: none;
+}
+
+#seta_esquerda {
+    display:none;
+    width:5%;
+    cursor: pointer;
+}
+
+#seta_direita{
+    width:5% ;
+    cursor: pointer;
+    
+}
+
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 90ms;
+}
+
+#tituloForm{
+    text-align: center;
+    color: #383838;
+    margin: 35px 0;
+}
+
+#form{
+    text-align: center;
+}
+
+input{
+width: 400px;
+height: 40px;
+background-color:#EAECE5;
+color: #383838;
+margin: 13px;
+border: 0px;
+border-radius: 5px;
+padding-left:15px;
+cursor:text;
+
+}
+
+button{
+color: #EAECE5;
+background-color: #237599;
+width: 300px;
+height: 40px;
+text-align: center;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+border: 0px;
+border-radius: 5px;
+cursor: pointer;
+margin: 13px 0 109px 0;
+}
+
+button:hover{
+    background-color: #2e82a6;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #0a4a6553;
+    transition-duration: 0.1s;
+
+}

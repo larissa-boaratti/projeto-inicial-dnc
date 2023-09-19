@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carreira DNC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--CABEÇALHO-->
+    <div id="parte1">
+        <img id="logo" src="images/logo.svg" alt="error">
+        <p id="titulo1">Dê os primeiros passos da<br>
+            sua carreira em Tecnologia </p>
+        <p id="subtitulo1">Inscreva-se no curso gratuito de Introdução à <br>
+            Tecnologia da DNC School e aprenda os principais <br>
+            fundamentos para construir experiências efetivas.</p>
+
+    </div>
+    <!--MENU RESPONSIVO-->
+    <div id="parte2">
+        <div class="viewport flex flex-jc-sb">
+            <div id="caixa1" class="caixa">
+                <div class="itemcaixa"><img class="icone" src="icones/certificado_icone.svg" alt=""></div>
+                <div class="itemcaixa">
+                    <p>Certificado de conclusão</p>
+                </div>
+            </div>
+
+            <div id="caixa2" class="caixa">
+                <div class="itemcaixa"><img class="icone" src="icones/relogio_icone.svg" alt=""></div>
+                <div class="itemcaixa">
+                    <p>4 horas de conteúdo</p>
+                </div>
+            </div>
+
+            <div id="caixa3" class="caixa">
+                <div class="itemcaixa"><img class="icone" src="icones/camera_icone.svg" alt=""></div>
+                <div class="itemcaixa">
+                    <p>Aulas online gravadas</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--PARTE DO VÍDEO-->
+<div id="parte3">
+    <div class="viewport flex flex-jc-sb flex-ai-c gap">
+        <div id="video">
+            <iframe width="502" height="283" src="https://www.youtube.com/embed/45BeP-XJDFA"
+                title="Conheça a Jornada do Aluno DNC" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+
+        <div id="texto">
+            <p id="texto1">Aprenda com especialistas e <br> comece seu primeiro projeto</p>
+            <p id="texto2"><br>Conheça o processo de desenvolvimento e entenda como utilizar<br>
+                os principais métodos e ferramentas da área para resolver<br>
+                problemas complexos.<br> <br>
+                Conquiste seu certificado e desenvolva um projeto prático para <br>
+                aplicar seus conhecimentos.</p>
+        </div>
+    </div>
+
+</div>
+
+    <!--CARROCEL-->
+    <div id="carrocel">
+     <div class="viewport_carrocel">
+         <p id="titulocarrocel">Mais de 500 alunos já iniciaram seus estudos</p>
+         <div id="paicards" class="flex flex-ai-c flex-jc-sb">
+             <img class="seta" class="filho" onclick="RolarEsquerda()" id="seta_esquerda" src="icones/seta_esquerda.svg" alt="">
+             <img class="filho" id="Leonardo" src="images/Leonardo.svg" alt="">
+             <img class="filho" id="Samantha" src="images/Samantha.svg" alt="">
+             <img class="filho" id="Bruna" src="images/Bruna.svg" alt="">
+             <img class="seta" class="filho" onclick="RolarDireita()" id="seta_direita" src="icones/seta_direita.svg" alt="">
+         </div>
+     </div>
+ </div>
+
+ <!--FORMULÁRIO-->
+ <div>
+    <h1 id="tituloForm">Comece agora mesmo e dê o próximo passo da sua carreira</h1>
+ </div>
+ <div>
+    <form id="form" action="https://api.sheetmonkey.io/form/f8jUMhpHGcnscmcavPtFWm" method="post" >
+        <input type="text" placeholder="Nome" name="Name"> <br>
+        <input type="email" placeholder="E-mail" name="Email"> <br>
+        <input type="hidden" value="x-sheetmonkey-current-date-time" name="Created">
+        <input type="text" placeholder="Telefone" name="Phone"> <br>
+        <button type="submit">Acesse a ementa grátis</button>
+        
+    </form>
+ </div>
+<script src="funcionalidade.js"></script>
+</body>
+
+
+</html>
